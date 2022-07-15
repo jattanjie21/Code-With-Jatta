@@ -144,7 +144,7 @@ That seems about it let's write the first query now by creating a new file named
 
 ### Object types, Fields and a first Query
 
-The most basic components of a schema are the object types, which just represent a kind of object you can fetch from your service, and what fields it has. The Graphiql UI helps mostly in documenting this with zero effort another win for Graphql. A GraphQL query is used to read or fetch values, the operation is a simple string that a GraphQL server can parse and respond to with data in a specific format. The popular response format that is usually used for mobile and web applications is JSON. We all love Django because it does a lot of the heavy lifting and django-graphene package is no different. This pacakge helps map your model and actually takes care of fields that are created automatically like ID's, datetime.now fields etc. Enough with the technicalities let's create the first query.
+The most basic components of a schema are the object types, which just represent a kind of object you can fetch from your service, and what fields it has. The Graphiql UI helps mostly in documenting this with zero effort another win for Graphql. A GraphQL query is used to read or fetch values, the operation is a simple string that a GraphQL server can parse and respond to with data in a specific format. The popular response format that is usually used for mobile and web applications is JSON. We all love Django because it does a lot of the heavy lifting and django-graphene package is no different. This package helps map your model and actually takes care of fields that are created automatically like ID's, datetime.now fields etc. Enough with the technicalities let's create the first query.
 
 recipe/schema.py
 ```
