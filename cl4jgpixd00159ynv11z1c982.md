@@ -1,4 +1,4 @@
-## Hey Django & Graphql
+# Hey Django & Graphql
 
 I have been flirting with Graphql for some time now and yes yes I have heard it all from how it reduces over and under fetching all the way to it is the best tool for building APIs. For the Rest fans out there this is not an article to convince you to use GraphQL, trust me and check it out with an open mind. GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015. Hey Mark! good one, this technology is amazing!!! . Enough with the theories let us integrate graphql with django and create magic without a magic wand Harry Porter will be amazed.
 
