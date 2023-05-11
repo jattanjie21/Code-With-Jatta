@@ -7,7 +7,7 @@ tags: sql, net, swagger, dotnet, dotnetcore
 
 ---
 
-Dapper is an open-source ORM for .Net it allows you to map database objects to objects in a simple and efficient way. This tutorial will guide you on how to use Dapper to perform CRUD operations in a .Net6 API with SQL Server. To get started, you can create a new .Net6 API project in Visual Studio and install the Dapper package using NuGet. Then, you can write SQL queries and use Dapper's extension methods to execute them and map the results to .Net objects. You can use Dapper to perform CRUD operations such as creating, reading, updating, and deleting records in a SQL Server database.
+Dapper is an open-source ORM for .Net it allows you to map database objects to .Net objects in a simple and efficient way. This tutorial will guide you on how to use Dapper to perform CRUD operations in a .Net6 API with SQL Server. To get started, you can create a new .Net6 API project in Visual Studio and install the Dapper package using NuGet. Then, you can write SQL queries and use Dapper's extension methods to execute them and map the results to .Net objects. You can use Dapper to perform CRUD operations such as creating, reading, updating, and deleting records in a SQL Server database.
 
 ### **Prerequisites**
 
@@ -240,7 +240,7 @@ builder.Services.AddScoped<IRecipeServices, RecipeServices>();
 
 ### Testing with swagger
 
-Swagger is a tool that helps with designing, documenting, and consuming RESTful API's. With Swagger installed, we can interact with the API and test it without the need for third-party tools like Postman. Swagger even helps document all the models used in the app. Below is how our project can be tested using swagger.
+Swagger is a tool that helps with designing, documenting, and consuming RESTful API's. With Swagger installed, we can interact with the API and test it without the need for third-party tools like Postman. Swagger even helps document all the models used in the app. Below is how our project can be tested using Swagger.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683738029703/72c3caf8-5800-410b-a33c-62c9ebb9c246.png align="center")
 
@@ -250,7 +250,7 @@ In conclusion, Dapper is a lightweight and efficient ORM that simplifies databas
 
 ### Additional resources
 
-[Github source dode](https://github.com/jattanjie21/dotnet6_api_crud_with_dapper)
+[Github source code](https://github.com/jattanjie21/dotnet6_api_crud_with_dapper)
 
 [SQL Server Connection Strings](https://www.connectionstrings.com/sql-server/)
 
